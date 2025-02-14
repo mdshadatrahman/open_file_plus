@@ -430,11 +430,6 @@ public class OpenFilePlugin implements MethodCallHandler
     }
 
     @Override
-    public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
-        this.flutterPluginBinding = binding;
-    }
-
-    @Override
     public void onDetachedFromEngine(@NonNull FlutterPluginBinding binding) {
         if (channel == null) {
             // Could be on too low of an SDK to have started listening originally.
