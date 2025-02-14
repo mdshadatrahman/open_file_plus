@@ -1,3 +1,6 @@
+## 0.0.6
+* Flutter v3.29 compatible
+
 ## 0.0.5
 * Fixed namespace issue on android 34
 
