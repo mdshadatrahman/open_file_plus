@@ -6,7 +6,7 @@ homepage: https://github.com/mdshadatrahman/open_file_plus
 dependencies:
   flutter:
     sdk: flutter
-  ffi: ^2.0.1
+  ffi: ^2.1.3
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
